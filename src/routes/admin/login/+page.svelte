@@ -21,7 +21,6 @@
 <div class="min-w-screen min-h-screen flex items-center justify-center bg">
 	<form
 		method="POST"
-		action="?/login"
 		class="space-y-4 flex flex-col items-center bg-white rounded-md p-10"
 		use:enhance
 		on:submit={() => (form.loading = true)}
